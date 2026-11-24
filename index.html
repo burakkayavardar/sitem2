@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burak - Kişisel Web Sitesi</title>
+  <link rel="icon" type="image/jpeg" href="resimler/maskot-1.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sabit Üst Menü -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#kapak" class="nav-brand">Burak</a>
+      <nav class="nav-menu">
+        <a href="#kapak" class="nav-link active">Kapak</a>
+        <a href="#hakkimda" class="nav-link">Hakkımda</a>
+        <a href="#ilgi-alanlari" class="nav-link">İlgi Alanlarım</a>
+        <a href="#iletisim" class="nav-link">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 1. Bölüm: Kapak (Tam Ekran Yüksekliğinde) -->
+  <section class="section hero-section" id="kapak">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-badge">Kişisel Web Sitesi</span>
+        <h1 class="hero-name">Burak</h1>
+        <p class="hero-intro">Yönetim Bilişim Sistemleri öğrencisi olarak teknoloji, kodlama ve yapay zekâ dünyasını tutkuyla keşfediyorum.</p>
+        <div class="hero-actions">
+          <a href="#hakkimda" class="btn btn-primary">Beni Tanıyın</a>
+          <a href="#ilgi-alanlari" class="btn btn-secondary">Neler Yapıyorum?</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-image-card">
+          <img src="resimler/maskot-3.jpg" alt="Oyun hamurundan yapılmış renkli bir vadide spor alanları, konser sahnesi ve yiyecek stantlarını tepeden seyreden sevimli tilki maskotu" class="hero-img">
+        </div>
+      </div>
+    </div>
+    <!-- Dalgalı Alt Geçiş -->
+    <div class="wave-divider wave-to-about">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,32L48,42.7C96,53,192,75,288,80C384,85,480,75,576,58.7C672,43,768,21,864,21.3C960,21,1056,43,1152,58.7C1248,75,1344,85,1392,90.7L1440,96L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 2. Bölüm: Hakkımda -->
+  <section class="section about-section" id="hakkimda">
+    <div class="container">
+      <div class="about-card">
+        <div class="about-mascot-wrapper">
+          <img src="resimler/maskot-1.jpg" alt="Mavi yelekli, ayakta durup sevimli bir tebessümle el sallayan turuncu tilki maskotu" class="about-mascot-img">
+        </div>
+        <div class="about-text-wrapper">
+          <span class="section-tag">Hakkımda</span>
+          <h2 class="section-title">Merhaba, Ben Burak</h2>
+          <div class="about-text">
+            <p>Yönetim Bilişim Sistemleri bölümünde lisans eğitimime devam eden hevesli bir öğrenciyim. Günlük hayatımda vaktimin büyük bir kısmını modern kodlama pratikleri ve üretken yapay zekâ teknolojileri üzerine yoğunlaşarak geçiriyorum. Teknolojiyi ve yeni yöntemleri sürekli araştırmayı, öğrenmeyi ve dijital projeler üretmeyi bir tutku haline getirdim.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dalgalı Alt Geçiş -->
+    <div class="wave-divider wave-to-interests">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,74.7C1248,64,1344,32,1392,16L1440,0L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 3. Bölüm: İlgi Alanlarım -->
+  <section class="section interests-section" id="ilgi-alanlari">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Keşfet</span>
+        <h2 class="section-title">İlgi Alanlarım</h2>
+        <p class="section-subtitle">Hayatıma ritim, enerji ve keyif katan vazgeçilmez tutkularım.</p>
+      </div>
+
+      <div class="interests-grid">
+        <!-- Kart 1: Müzik -->
+        <article class="interest-card">
+          <div class="card-image-box">
+            <img src="resimler/maskot-2.jpg" alt="Tabureye oturmuş akustik gitar çalan ve etrafında rengarenk müzik notaları uçuşan tilki maskotu" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Müzik</h3>
+            <p class="card-description">Çalışırken ve dinlenirken bana eşlik eden farklı melodileri, akustik ritimleri ve yeni müzik tarzlarını keşfetmeyi seviyorum.</p>
+          </div>
+        </article>
+
+        <!-- Kart 2: Spor -->
+        <article class="interest-card">
+          <div class="card-image-box">
+            <img src="resimler/maskot-4.jpg" alt="Spor kıyafetleri ve kafa bandıyla futbol sahasında renkli topun peşinde koşan dinamik tilki maskotu" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Spor</h3>
+            <p class="card-description">Zinde kalmak, zihinsel odaklanmamı güçlendirmek ve dinamik bir enerjiye sahip olmak için düzenli spor yapıyorum.</p>
+          </div>
+        </article>
+
+        <!-- Kart 3: Yemek -->
+        <article class="interest-card">
+          <div class="card-image-box">
+            <img src="resimler/maskot-5.jpg" alt="Büyük ve kat kat lezzetli bir hamburgerin karşısında neşeyle kollarını açmış oturan tilki maskotu" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Yemek</h3>
+            <p class="card-description">Yeni tarifler denemek, farklı mutfak kültürlerini deneyimlemek ve lezzetli sofraları sevdiklerimle paylaşmak bana büyük keyif veriyor.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Dalgalı Alt Geçiş -->
+    <div class="wave-divider wave-to-contact">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0,48L48,58.7C96,69,192,91,288,96C384,101,480,91,576,74.7C672,59,768,37,864,37.3C960,37,1056,59,1152,69.3C1248,80,1344,80,1392,80L1440,80L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 4. Bölüm: İletişim -->
+  <section class="section contact-section" id="iletisim">
+    <div class="container">
+      <div class="contact-card">
+        <span class="section-tag">Bağlantı Kur</span>
+        <h2 class="section-title">İletişime Geçelim</h2>
+        <p class="contact-description">Projeler, teknoloji sohbetleri veya iş birliği fırsatları için dilediğiniz zaman bana ulaşabilirsiniz.</p>
+        <div class="contact-buttons">
+          <a href="mailto:burak@example.com" class="btn btn-primary contact-btn">E-posta Gönder</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary contact-btn">GitHub Profilim</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary contact-btn">LinkedIn Profilim</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sayfa Altı (Footer) -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p class="footer-text">Bu sitedeki görseller yapay zekâ ile üretildi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
